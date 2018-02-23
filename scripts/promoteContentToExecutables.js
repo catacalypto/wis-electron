@@ -14,7 +14,7 @@ const appDir  = resolve(__dirname, '..', 'app');
 const distDir = resolve(__dirname, '..', 'dist');
 
 const winDir = resolve(distDir, 'windows', 'resources', 'app');
-const osxDir = resolve(distDir, 'osx', 'Electron.app', 'Contents', 'Resources', 'app');
+const osxDir = resolve(distDir, 'osx', 'WIS.app', 'Contents', 'Resources', 'app');
 const linDir = resolve(distDir, 'linux', 'resources', 'app');
 
 Promise.all([ rimraf(winDir), rimraf(osxDir), rimraf(linDir), ]).catch((e) => {
