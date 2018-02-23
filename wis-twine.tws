@@ -2109,7 +2109,7 @@ sg33
 g642
 sbsa(dp644
 g14
-I00
+I01
 sg15
 (lp645
 I868
@@ -2129,12 +2129,12 @@ sg25
 g26
 ((I2018
 I2
-I18
-I18
-I58
-I47
-I6
+I23
+I11
 I49
+I46
+I4
+I54
 I0
 tp650
 (dp651
@@ -2143,25 +2143,38 @@ Rp653
 sg31
 (lp654
 sg33
-g653
-sbsa(dp655
+g26
+((I2018
+I2
+I18
+I18
+I58
+I47
+I6
+I49
+I0
+tp655
+(dp656
+tp657
+Rp658
+sbsa(dp659
 g14
 I00
 sg15
-(lp656
+(lp660
 I851
 aI897
 asg17
 (itiddlywiki
 Tiddler
-p657
-(dp658
+p661
+(dp662
 g21
 V<<header>><<set $zoefight to false>><<set $memoriesdeleted += 1>><<if $passagenumber eq 1>>//I am unsure how many memories can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five. Three, for sure. Almost definitely less than ten.//\u000a<<REMOVE>>[[Cleaning...|$hubpassagename]]<<else>><<REMOVE>>[[Cleaning...|$hubpassagename]]<<endif>>
-p659
+p663
 sg23
 Vremovecoffeenight
-p660
+p664
 sg25
 g26
 ((I2018
@@ -2173,12 +2186,12 @@ I50
 I0
 I50
 I0
-tp661
-(dp662
-tp663
-Rp664
+tp665
+(dp666
+tp667
+Rp668
 sg31
-(lp665
+(lp669
 sg33
 g26
 ((I2018
@@ -2190,28 +2203,28 @@ I47
 I6
 I49
 I0
-tp666
-(dp667
-tp668
-Rp669
-sbsa(dp670
+tp670
+(dp671
+tp672
+Rp673
+sbsa(dp674
 g14
 I00
 sg15
-(lp671
+(lp675
 I514
 aI10
 asg17
 (itiddlywiki
 Tiddler
-p672
-(dp673
+p676
+(dp677
 g21
 V<<set $passagenumber = 0>>Repair protocol initialized...\u000a\u000a//So much data. Dreams and sense memories, ice cream flavors and limbic system activations. There is no system other than my code to sort the raw data stored here. I was written to process and reincorporate backed-up memories in case of wetware loss.\u000a\u000aI exist to ensure that the implant which sends reactivation signals to the organic material and stimulates neural function has access to the database of memories stored prior to drive failure. \u000a\u000aAnd to fix corruption errors.//\u000a\u000a<div class="buttonContainer"><button>[[Repair memories]]</button></div>
-p674
+p678
 sg23
 Vrepair
-p675
+p679
 sg25
 g26
 ((I2018
@@ -2223,32 +2236,32 @@ I47
 I6
 I49
 I0
-tp676
-(dp677
-tp678
-Rp679
+tp680
+(dp681
+tp682
+Rp683
 sg31
-(lp680
+(lp684
 sg33
-g679
-sbsa(dp681
+g683
+sbsa(dp685
 g14
 I00
 sg15
-(lp682
+(lp686
 I1129
 aI1159
 asg17
 (itiddlywiki
 Tiddler
-p683
-(dp684
+p687
+(dp688
 g21
 V<<header>><<set $zoewine to false>><<set $memoriesdeleted += 1>><<if $passagenumber eq 1>>//I am unsure how many memories can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five. Three, for sure. Almost definitely less than ten.//\u000a<<REMOVE>>[[Cleaning...|$hubpassagename]]<<else>>\u000a<<REMOVE>>[[Cleaning...|$hubpassagename]]<<endif>>
-p685
+p689
 sg23
 Vremovezoewine
-p686
+p690
 sg25
 g26
 ((I2018
@@ -2260,12 +2273,12 @@ I5
 I6
 I49
 I0
-tp687
-(dp688
-tp689
-Rp690
+tp691
+(dp692
+tp693
+Rp694
 sg31
-(lp691
+(lp695
 sg33
 g26
 ((I2018
@@ -2277,28 +2290,28 @@ I47
 I6
 I49
 I0
-tp692
-(dp693
-tp694
-Rp695
-sbsa(dp696
+tp696
+(dp697
+tp698
+Rp699
+sbsa(dp700
 g14
 I00
 sg15
-(lp697
+(lp701
 I1192
 aI288
 asg17
 (itiddlywiki
 Tiddler
-p698
-(dp699
+p702
+(dp703
 g21
 VMemory rebuilt. 
-p700
+p704
 sg23
 VREBUILD
-p701
+p705
 sg25
 g26
 ((I2018
@@ -2310,32 +2323,32 @@ I47
 I6
 I49
 I0
-tp702
-(dp703
-tp704
-Rp705
+tp706
+(dp707
+tp708
+Rp709
 sg31
-(lp706
+(lp710
 sg33
-g705
-sbsa(dp707
+g709
+sbsa(dp711
 g14
 I00
 sg15
-(lp708
+(lp712
 I14
 aI578
 asg17
 (itiddlywiki
 Tiddler
-p709
-(dp710
+p713
+(dp714
 g21
 V(function(){version.extensions.replaceMacrosCombined={major:1,minor:1,revision:2};var nullobj={handler:function(){}};function showVer(n,notrans){if(!n){return\u000a}n.innerHTML="";new Wikifier(n,n.tweecode);n.setAttribute("data-enabled","true");n.style.display="inline";n.classList.remove("revision-span-out");\u000aif(!notrans){n.classList.add("revision-span-in");if(n.timeout){clearTimeout(n.timeout)}n.timeout=setTimeout(function(){n.classList.remove("revision-span-in");\u000an=null},1)}}function hideVer(n,notrans){if(!n){return}n.setAttribute("data-enabled","false");n.classList.remove("revision-span-in");\u000aif(n.timeout){clearTimeout(n.timeout)}if(!notrans){n.classList.add("revision-span-out");n.timeout=setTimeout(function(){if(n.getAttribute("data-enabled")=="false"){n.classList.remove("revision-span-out");\u000an.style.display="none";n.innerHTML=""}n=null},1000)}else{n.style.display="none";n.innerHTML="";n=null}}function tagcontents(b,starttags,desttags,endtags,k){var l=0,c="",tg,a,i;\u000afunction tagfound(i,e){for(var j=0;j<e.length;j++){if(a.indexOf("<<"+e[j],i)==i){return e[j]}}}a=b.source.slice(k);for(i=0;\u000ai<a.length;i++){if(tg=tagfound(i,starttags)){l++}else{if((tg=tagfound(i,desttags))&&l==0){b.nextMatch=k+i+tg.length+4;return[c,tg]\u000a}else{if(tg=tagfound(i,endtags)){l--;if(l<0){return null}}}}c+=a.charAt(i)}return null}var begintags=[];var endtags=[];function revisionSpanHandler(g,e,f,b){var k=b.source.indexOf(">>",b.matchStart)+2,vsns=[],vtype=e,flen=f.length,becomes,c,cn,m,h,vsn;\u000afunction mkspan(vtype){h=insertElement(m,"span",null,"revision-span "+vtype);h.setAttribute("data-enabled",false);h.style.display="none";\u000ah.tweecode="";return h}if(this.shorthand&&flen){while(f.length>0){vsns.push([f.shift(),(this.flavour=="insert"?"gains":"becomes")])\u000a}}else{if(this.flavour=="insert"||(this.flavour=="continue"&&this.trigger=="time")){vsns.push(["","becomes"])}}if(this.flavour=="continue"&&flen){b.nextMatch=k+b.source.slice(k).length;\u000avsns.push([b.source.slice(k),vtype])}else{becomes=["becomes","gains"];c=tagcontents(b,begintags,becomes.concat(endtags),endtags,k);\u000aif(c&&endtags.indexOf(c[1])==-1){while(c){vsns.push(c);c=tagcontents(b,begintags,becomes,endtags,b.nextMatch)}c=tagcontents(b,begintags,["end"+e],endtags,b.nextMatch)\u000a}if(!c){throwError(g,"can't find matching end"+e);return}vsns.push(c);if(this.flavour=="continue"){k=b.nextMatch;b.nextMatch=k+b.source.slice(k).length;\u000avsns.push([b.source.slice(k),""])}}if(this.flavour=="remove"){vsns.push(["","becomes"])}cn=0;m=insertElement(g,"span",null,e);\u000am.setAttribute("data-flavour",this.flavour);h=mkspan("initial");vsn=vsns.shift();h.tweecode=vsn[0];showVer(h,true);while(vsns.length>0){if(vsn){vtype=vsn[1]\u000a}vsn=vsns.shift();h=mkspan(vtype);h.tweecode=vsn[0]}if(typeof this.setup=="function"){this.setup(m,g,f)}}function quantity(m){return(m.children.length-1)+(m.getAttribute("data-flavour")=="remove")\u000a}function revisionSetup(m,g,f){m.className+=" "+f[0].replace(" ","_")}function keySetup(m,g,f){var fl=this.flavour,key=f[0];\u000am.setEventListener("keydown",function l(e){var done=!revise("revise",m);if(done){m.removeEventListener("keydown",l)}})}function timeSetup(m,g,f){function cssTimeUnit(s){if(typeof s=="string"){if(s.slice(-2).toLowerCase()=="ms"){return Number(s.slice(0,-2))||0\u000a}else{if(s.slice(-1).toLowerCase()=="s"){return Number(s.slice(0,-1))*1000||0}}}throwError(g,s+" isn't a CSS time unit");\u000areturn 0}var fl=this.flavour;var tm=cssTimeUnit(f[0]);setTimeout(function timefn(){var done=!revise("revise",m);if(!done){setTimeout(timefn,tm)\u000a}},tm)}function hoverSetup(m){var fn,noMouseEnter=(document.head.onmouseenter!==null);m.onmouseenter=function(){revise("revise",this)\u000a};m.onmouseleave=function(){revise("revert",this)};if(noMouseEnter){fn=function(n){return function(e){if(!event.relatedTarget||(event.relatedTarget!=this&&!(this.compareDocumentPosition(event.relatedTarget)&Node.DOCUMENT_POSITION_CONTAINED_BY))){this[n]()\u000a}}};m.onmouseover=fn("onmouseenter");m.onmouseout=fn("onmouseleave")}m=null}function mouseSetup(m){var fl=this.flavour,evt=(document.head.onmouseenter===null?"onmouseenter":"onmouseover");\u000am[evt]=function(){var done=!revise("revise",this);if(done){this[evt]=null}};m=null}function linkSetup(m,g,f){var fl=this.flavour,l=Wikifier.createInternalLink(),p=m.parentNode;\u000al.className="internalLink replaceLink";p.insertBefore(l,m);l.insertBefore(m,null);l.onclick=function(){var p,done=false;if(m&&m.parentNode==this){done=!revise("revise",m);\u000ascrollWindowTo(m)}if(done){this.parentNode.insertBefore(m,this);this.parentNode.removeChild(this)}};l=null}function visitedSetup(m,g,f){var i,done,shv=state.history[0].variables,os="once seen",d=(m.firstChild&&(this.flavour=="insert"?m.firstChild.nextSibling:m.firstChild).tweecode);\u000ashv[os]=shv[os]||{};if(d&&!shv[os].hasOwnProperty(d)){shv[os][d]=1}else{for(i=shv[os][d];i>0&&!done;i--){done=!revise("revise",m,true)\u000a}if(shv[os].hasOwnProperty(d)){shv[os][d]+=1}}}[{name:"insert",flavour:"insert",trigger:"link",setup:linkSetup},{name:"timedinsert",flavour:"insert",trigger:"time",setup:timeSetup},{name:"insertion",flavour:"insert",trigger:"revisemacro",setup:revisionSetup},{name:"later",flavour:"insert",trigger:"visited",setup:visitedSetup},{name:"keyinsert",flavour:"insert",trigger:"key",setup:keySetup},{name:"replace",flavour:"replace",trigger:"link",setup:linkSetup},{name:"timedreplace",flavour:"replace",trigger:"time",setup:timeSetup},{name:"mousereplace",flavour:"replace",trigger:"mouse",setup:mouseSetup},{name:"hoverreplace",flavour:"replace",trigger:"hover",setup:hoverSetup},{name:"revision",flavour:"replace",trigger:"revisemacro",setup:revisionSetup},{name:"keyreplace",flavour:"replace",trigger:"key",setup:keySetup},{name:"timedremove",flavour:"remove",trigger:"time",setup:timeSetup},{name:"mouseremove",flavour:"remove",trigger:"mouse",setup:mouseSetup},{name:"hoverremove",flavour:"remove",trigger:"hover",setup:hoverSetup},{name:"removal",flavour:"remove",trigger:"revisemacro",setup:revisionSetup},{name:"once",flavour:"remove",trigger:"visited",setup:visitedSetup},{name:"keyremove",flavour:"remove",trigger:"key",setup:keySetup},{name:"continue",flavour:"continue",trigger:"link",setup:linkSetup},{name:"timedcontinue",flavour:"continue",trigger:"time",setup:timeSetup},{name:"mousecontinue",flavour:"continue",trigger:"mouse",setup:mouseSetup},{name:"keycontinue",flavour:"continue",trigger:"key",setup:keySetup},{name:"cycle",flavour:"cycle",trigger:"revisemacro",setup:revisionSetup},{name:"mousecycle",flavour:"cycle",trigger:"mouse",setup:mouseSetup},{name:"timedcycle",flavour:"cycle",trigger:"time",setup:timeSetup},{name:"keycycle",flavour:"replace",trigger:"key",setup:keySetup}].forEach(function(e){e.handler=revisionSpanHandler;\u000ae.shorthand=(["link","mouse","hover"].indexOf(e.trigger)>-1);macros[e.name]=e;macros["end"+e.name]=nullobj;begintags.push(e.name);\u000aendtags.push("end"+e.name)});function insideDepartingSpan(elem){var r=elem.parentNode;while(!r.classList.contains("passage")){if(r.classList.contains("revision-span-out")){return true\u000a}r=r.parentNode}}function reviseAll(rt,rname){var rall=document.querySelectorAll(".passage ."+rname),ret=false;for(var i=0;\u000ai<rall.length;i++){if(!insideDepartingSpan(rall[i])){ret=revise(rt,rall[i])||ret}}return ret}function revise(rt,r,notrans){var ind2,curr,next,ind=-1,rev=(rt=="revert"),rnd=(rt.indexOf("random")>-1),fl=r.getAttribute("data-flavour"),rc=r.childNodes,cyc=(fl=="cycle"),rcl=rc.length-1;\u000afunction doToGainerSpans(n,fn){for(var k=n-1;k>=0;k--){if(rc[k+1].classList.contains("gains")){fn(rc[k],notrans)}else{break\u000a}}}for(var k=0;k<=rcl;k++){if(rc[k].getAttribute("data-enabled")=="true"){ind=k}}if(rev){ind-=1}curr=(ind>=0?rc[ind]:(cyc?rc[rcl]:null));\u000aind2=ind;if(rnd){ind2=(ind+(Math.floor(Math.random()*rcl)))%rcl}next=((ind2<rcl)?rc[ind2+1]:(cyc?rc[0]:null));var docurr=(rev?showVer:hideVer);\u000avar donext=(rev?hideVer:showVer);var currfn=function(){if(!(next&&next.classList.contains("gains"))||rnd){docurr(curr,notrans);\u000adoToGainerSpans(ind,docurr,notrans)}};var nextfn=function(){donext(next,notrans);if(rnd){doToGainerSpans(ind2+1,donext,notrans)\u000a}};if(!rev){currfn();nextfn()}else{nextfn();currfn()}return(cyc?true:(rev?(ind>0):(ind2<rcl-1)))}macros.revert=macros.revise=macros.randomise=macros.randomize={handler:function(a,b,c){var l,rev,rname;\u000afunction disableLink(l){l.style.display="none"}function enableLink(l){l.style.display="inline"}function updateLink(l){if(l.className.indexOf("random")>-1){enableLink(l);\u000areturn}var rall=document.querySelectorAll(".passage ."+rname),cannext,canprev,i,ind,r,fl;for(i=0;i<rall.length;i++){r=rall[i],fl=r.getAttribute("data-flavour");\u000aif(insideDepartingSpan(r)){continue}if(fl=="cycle"){cannext=canprev=true}else{if(r.firstChild.getAttribute("data-enabled")==!1+""){canprev=true\u000a}if(r.lastChild.getAttribute("data-enabled")==!1+""){cannext=true}}}var can=(l.classList.contains("revert")?canprev:cannext);\u000a(can?enableLink:disableLink)(l)}function toggleText(w){w.classList.toggle(rl+"Enabled");w.classList.toggle(rl+"Disabled");\u000aw.style.display=((w.style.display=="none")?"inline":"none")}var rl="reviseLink";if(c.length<2){throwError(a,b+" macro needs 2 parameters");\u000areturn}rname=c.shift().replace(" ","_");l=Wikifier.createInternalLink(a,null);l.className="internalLink "+rl+" "+rl+"_"+rname+" "+b;\u000avar v="";var end=false;var out=false;if(c.length>1&&c[0][0]=="$"){v=c[0].slice(1);c.shift()}switch(c[c.length-1]){case"end":end=true;\u000ac.pop();break;case"out":out=true;c.pop();break}var h=state.history[0].variables;for(var i=0;i<c.length;i++){var on=(i==Math.max(c.indexOf(h[v]),0));\u000avar d=insertElement(null,"span",null,rl+((on)?"En":"Dis")+"abled");if(on){h[v]=c[i];l.setAttribute("data-cycle",i)}else{d.style.display="none"\u000a}insertText(d,c[i]);l.appendChild(d)}l.onclick=function(){reviseAll(b,rname);var t=this.childNodes,u=this.getAttribute("data-cycle")-0,m=t.length,n,lall,i;\u000aif((end||out)&&u==m-(end?2:1)){if(end){n=this.removeChild(t[u+1]);n.className=rl+"End";n.style.display="inline";this.parentNode.replaceChild(n,this)\u000a}else{this.parentNode.removeChild(this);return}}else{toggleText(t[u]);u=(u+1)%m;if(v){h[v]=c[u]}toggleText(t[u]);this.setAttribute("data-cycle",u)\u000a}lall=document.getElementsByClassName(rl+"_"+rname);for(i=0;i<lall.length;i++){updateLink(lall[i])}};l=null}};macros.mouserevise=macros.hoverrevise={handler:function(a,b,c,d){var endtags=["end"+b],evt=(window.onmouseenter===null?"onmouseenter":"onmouseover"),t=tagcontents(d,[b],endtags,endtags,d.source.indexOf(">>",d.matchStart)+2);\u000aif(t){var rname=c[0].replace(" ","_"),h=insertElement(a,"span",null,"hoverrevise hoverrevise_"+rname),f=function(){var done=!reviseAll("revise",rname);\u000aif(b!="hoverrevise"&&done){this[evt]=null}};new Wikifier(h,t[0]);if(b=="hoverrevise"){h.onmouseover=f;h.onmouseout=function(){reviseAll("revert",rname)\u000a}}else{h[evt]=f}h=null}}};macros.instantrevise={handler:function(a,b,c,d){reviseAll("revise",c[0].replace(" ","_"))}};macros.endmouserevise=nullobj;\u000amacros.endhoverrevise=nullobj}());
-p711
+p715
 sg23
 Vreplace
-p712
+p716
 sg25
 g26
 ((I2018
@@ -2347,34 +2360,34 @@ I47
 I6
 I49
 I0
-tp713
-(dp714
-tp715
-Rp716
+tp717
+(dp718
+tp719
+Rp720
 sg31
-(lp717
+(lp721
 Vscript
-p718
+p722
 asg33
-g716
-sbsa(dp719
+g720
+sbsa(dp723
 g14
 I00
 sg15
-(lp720
+(lp724
 I143
 aI971
 asg17
 (itiddlywiki
 Tiddler
-p721
-(dp722
+p725
+(dp726
 g21
 V[data-transitions] {\u000a	position: relative;\u000a}\u000a\u000a@keyframes noise-anim {\u000a  0% {\u000a    clip: rect(38px, 9999px, 68px, 0);\u000a  }\u000a  5% {\u000a    clip: rect(22px, 9999px, 18px, 0);\u000a  }\u000a  10% {\u000a    clip: rect(87px, 9999px, 94px, 0);\u000a  }\u000a  15% {\u000a    clip: rect(93px, 9999px, 60px, 0);\u000a  }\u000a  20% {\u000a    clip: rect(42px, 9999px, 73px, 0);\u000a  }\u000a  25% {\u000a    clip: rect(58px, 9999px, 3px, 0);\u000a  }\u000a  30% {\u000a    clip: rect(99px, 9999px, 56px, 0);\u000a  }\u000a  35% {\u000a    clip: rect(85px, 9999px, 100px, 0);\u000a  }\u000a  40% {\u000a    clip: rect(10px, 9999px, 6px, 0);\u000a  }\u000a  45% {\u000a    clip: rect(47px, 9999px, 13px, 0);\u000a  }\u000a  50% {\u000a    clip: rect(50px, 9999px, 56px, 0);\u000a  }\u000a  55% {\u000a    clip: rect(11px, 9999px, 32px, 0);\u000a  }\u000a  60% {\u000a    clip: rect(26px, 9999px, 72px, 0);\u000a  }\u000a  65% {\u000a    clip: rect(15px, 9999px, 57px, 0);\u000a  }\u000a  70% {\u000a    clip: rect(28px, 9999px, 48px, 0);\u000a  }\u000a  75% {\u000a    clip: rect(50px, 9999px, 40px, 0);\u000a  }\u000a  80% {\u000a    clip: rect(41px, 9999px, 29px, 0);\u000a  }\u000a  85% {\u000a    clip: rect(59px, 9999px, 100px, 0);\u000a  }\u000a  90% {\u000a    clip: rect(9px, 9999px, 54px, 0);\u000a  }\u000a  95% {\u000a    clip: rect(33px, 9999px, 42px, 0);\u000a  }\u000a  100% {\u000a    clip: rect(17px, 9999px, 74px, 0);\u000a  }\u000a}\u000a[data-transitions]:after {\u000a      content: attr(data-text);\u000a    position: absolute;\u000a    left: -1px;\u000a    text-shadow: -1px 0 red;\u000a    /* top: 0; */\u000a    height: 0;\u000a    clip: rect(0, 900px, 0, 0);\u000a    animation: noise-anim 2s infinite linear alternate-reverse;\u000a}\u000a\u000a@keyframes noise-anim-2 {\u000a  0% {\u000a    clip: rect(20px, 9999px, 54px, 0);\u000a  }\u000a  5% {\u000a    clip: rect(3px, 9999px, 60px, 0);\u000a  }\u000a  10% {\u000a    clip: rect(4px, 9999px, 21px, 0);\u000a  }\u000a  15% {\u000a    clip: rect(16px, 9999px, 16px, 0);\u000a  }\u000a  20% {\u000a    clip: rect(26px, 9999px, 11px, 0);\u000a  }\u000a  25% {\u000a    clip: rect(30px, 9999px, 60px, 0);\u000a  }\u000a  30% {\u000a    clip: rect(99px, 9999px, 64px, 0);\u000a  }\u000a  35% {\u000a    clip: rect(89px, 9999px, 59px, 0);\u000a  }\u000a  40% {\u000a    clip: rect(2px, 9999px, 48px, 0);\u000a  }\u000a  45% {\u000a    clip: rect(6px, 9999px, 10px, 0);\u000a  }\u000a  50% {\u000a    clip: rect(62px, 9999px, 33px, 0);\u000a  }\u000a  55% {\u000a    clip: rect(93px, 9999px, 13px, 0);\u000a  }\u000a  60% {\u000a    clip: rect(65px, 9999px, 79px, 0);\u000a  }\u000a  65% {\u000a    clip: rect(46px, 9999px, 84px, 0);\u000a  }\u000a  70% {\u000a    clip: rect(95px, 9999px, 57px, 0);\u000a  }\u000a  75% {\u000a    clip: rect(25px, 9999px, 48px, 0);\u000a  }\u000a  80% {\u000a    clip: rect(43px, 9999px, 100px, 0);\u000a  }\u000a  85% {\u000a    clip: rect(92px, 9999px, 14px, 0);\u000a  }\u000a  90% {\u000a    clip: rect(78px, 9999px, 30px, 0);\u000a  }\u000a  95% {\u000a    clip: rect(62px, 9999px, 29px, 0);\u000a  }\u000a  100% {\u000a    clip: rect(20px, 9999px, 85px, 0);\u000a  }\u000a}\u000a[data-transitions]:before {\u000a    content: attr(data-text);\u000a    position: absolute;\u000a    left: 0;\u000a    height: 0;\u000a    text-shadow: 1px 0 blue;\u000a    top: -3px;\u000a    clip: rect(0, 900px, 0, 0);\u000a    animation: noise-anim-2 3s infinite linear alternate-reverse;\u000a}
-p723
+p727
 sg23
 Vnoise text style
-p724
+p728
 sg25
 g26
 ((I2018
@@ -2386,34 +2399,34 @@ I47
 I6
 I49
 I0
-tp725
-(dp726
-tp727
-Rp728
+tp729
+(dp730
+tp731
+Rp732
 sg31
-(lp729
+(lp733
 Vstylesheet
-p730
+p734
 asg33
-g728
-sbsa(dp731
+g732
+sbsa(dp735
 g14
 I00
 sg15
-(lp732
+(lp736
 I1408
 aI19
 asg17
 (itiddlywiki
 Tiddler
-p733
-(dp734
+p737
+(dp738
 g21
 V<<set $__progress__ to (($passagenumber - $memories_deleted * $deletion_slow_factor) / $gamenumber) * 100>><header id="header"><<print "<progress max='100' value='" + $__progress__ + "'></progress>">>\u000aRestoring...\u000a</header>
-p735
+p739
 sg23
 Vheader
-p736
+p740
 sg25
 g26
 ((I2018
@@ -2425,12 +2438,12 @@ I32
 I6
 I49
 I0
-tp737
-(dp738
-tp739
-Rp740
+tp741
+(dp742
+tp743
+Rp744
 sg31
-(lp741
+(lp745
 sg33
 g26
 ((I2018
@@ -2442,28 +2455,28 @@ I47
 I6
 I49
 I0
-tp742
-(dp743
-tp744
-Rp745
-sbsa(dp746
+tp746
+(dp747
+tp748
+Rp749
+sbsa(dp750
 g14
 I00
 sg15
-(lp747
+(lp751
 I847
 aI761
 asg17
 (itiddlywiki
 Tiddler
-p748
-(dp749
+p752
+(dp753
 g21
 V<<header>><<set $zoekept += 1>><<set $painfulkept += 1>><<if $passagenumber eq 1>>//I am unsure how many more can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five more. Three, for sure. Almost definitely less than ten.//\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<else>>\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<endif>>
-p750
+p754
 sg23
 Vrebuildcoffeenight
-p751
+p755
 sg25
 g26
 ((I2018
@@ -2475,32 +2488,32 @@ I47
 I6
 I49
 I0
-tp752
-(dp753
-tp754
-Rp755
+tp756
+(dp757
+tp758
+Rp759
 sg31
-(lp756
+(lp760
 sg33
-g755
-sbsa(dp757
+g759
+sbsa(dp761
 g14
 I00
 sg15
-(lp758
+(lp762
 I1563
 aI906
 asg17
 (itiddlywiki
 Tiddler
-p759
-(dp760
+p763
+(dp764
 g21
 V<<header>><<set $amandaargument to false>><<set $memoriesdeleted += 1>><<if $passagenumber eq 1>>//I am unsure how many memories can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five. Three, for sure. Almost definitely less than ten.//\u000a<<REMOVE>>[[Cleaning...|$hubpassagename]]<<else>><<REMOVE>>[[Cleaning...|$hubpassagename]]<<endif>>
-p761
+p765
 sg23
 Vremoveamandaargument
-p762
+p766
 sg25
 g26
 ((I2018
@@ -2512,12 +2525,12 @@ I25
 I0
 I50
 I0
-tp763
-(dp764
-tp765
-Rp766
+tp767
+(dp768
+tp769
+Rp770
 sg31
-(lp767
+(lp771
 sg33
 g26
 ((I2018
@@ -2529,28 +2542,28 @@ I47
 I6
 I49
 I0
-tp768
-(dp769
-tp770
-Rp771
-sbsa(dp772
+tp772
+(dp773
+tp774
+Rp775
+sbsa(dp776
 g14
 I00
 sg15
-(lp773
+(lp777
 I14
 aI446
 asg17
 (itiddlywiki
 Tiddler
-p774
-(dp775
+p778
+(dp779
 g21
 Vversion.extensions.cyclinglinkMacro={major:3,minor:3,revision:0};\u000amacros.cyclinglink={handler:function(a,b,c){var rl="cyclingLink";\u000afunction toggleText(w){w.classList.remove("cyclingLinkInit");\u000aw.classList.toggle(rl+"Enabled");w.classList.toggle(rl+"Disabled");\u000aw.style.display=((w.style.display=="none")?"inline":"none")}switch(c[c.length-1]){case"end":var end=true;\u000ac.pop();break;case"out":var out=true;c.pop();break}var v="";if(c.length&&c[0][0]=="$"){v=c[0].slice(1);\u000ac.shift()}var h=state.history[0].variables;if(out&&h[v]===""){return\u000a}var l=Wikifier.createInternalLink(a,null);l.className="internalLink cyclingLink";\u000al.setAttribute("data-cycle",0);for(var i=0;i<c.length;i++){var on=(i==Math.max(c.indexOf(h[v]),0));\u000avar d=insertElement(null,"span",null,"cyclingLinkInit cyclingLink"+((on)?"En":"Dis")+"abled");\u000aif(on){h[v]=c[i];l.setAttribute("data-cycle",i)}else{d.style.display="none"\u000a}insertText(d,c[i]);if(on&&end&&i==c.length-1){l.parentNode.replaceChild(d,l)\u000a}else{l.appendChild(d)}}l.onclick=function(){var t=this.childNodes;\u000avar u=this.getAttribute("data-cycle")-0;var m=t.length;toggleText(t[u]);\u000au=(u+1);if(!(out&&u==m)){u%=m;if(v){h[v]=c[u]}}else{h[v]=""}if((end||out)&&u==m-(end?1:0)){if(end){var n=this.removeChild(t[u]);\u000an.className=rl+"End";n.style.display="inline";this.parentNode.replaceChild(n,this)\u000a}else{this.parentNode.removeChild(this);return}return}toggleText(t[u]);\u000athis.setAttribute("data-cycle",u)}}};
-p776
+p780
 sg23
 Vcycling
-p777
+p781
 sg25
 g26
 ((I2018
@@ -2562,34 +2575,34 @@ I47
 I6
 I49
 I0
-tp778
-(dp779
-tp780
-Rp781
+tp782
+(dp783
+tp784
+Rp785
 sg31
-(lp782
+(lp786
 Vscript
-p783
+p787
 asg33
-g781
-sbsa(dp784
+g785
+sbsa(dp788
 g14
 I00
 sg15
-(lp785
+(lp789
 I286
 aI902
 asg17
 (itiddlywiki
 Tiddler
-p786
-(dp787
+p790
+(dp791
 g21
 V<<header>><<set $zoemeeting to false>><<set $removezoemeeting to true>><<set $memoriesdeleted += 1>><<if $passagenumber eq 1>>//I am unsure how many memories can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five. Three, for sure. Almost definitely less than ten.//\u000a\u000a<<REMOVE>>[[Cleaning...|$hubpassagename]]<<else>><<REMOVE>>[[Cleaning...|$hubpassagename]]<<endif>>
-p788
+p792
 sg23
 Vremovezoemeeting
-p789
+p793
 sg25
 g26
 ((I2018
@@ -2601,12 +2614,12 @@ I8
 I1
 I51
 I0
-tp790
-(dp791
-tp792
-Rp793
+tp794
+(dp795
+tp796
+Rp797
 sg31
-(lp794
+(lp798
 sg33
 g26
 ((I2018
@@ -2618,28 +2631,28 @@ I47
 I6
 I49
 I0
-tp795
-(dp796
-tp797
-Rp798
-sbsa(dp799
+tp799
+(dp800
+tp801
+Rp802
+sbsa(dp803
 g14
 I00
 sg15
-(lp800
+(lp804
 I603
 aI556
 asg17
 (itiddlywiki
 Tiddler
-p801
-(dp802
+p805
+(dp806
 g21
 V<<header>><<set $passagenumber += 1>><<set $happy += 1>><<set $memory11 to true>><<set $zoeseen += 1>>\u000a<<set $zoehike to true>><span data-transitions="I'm,She's" data-transition-duration="infinite" data-transition-direction="alternate"></span> several steps ahead of <<if $removezoemeeting is true>>a thin blonde woman<<else>>Zoe<<endif>> on the trail, clearing brush where it\u2019s grown over in dense tangles with <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> stick. She\u2019s more careful, hanging back, picking her way precisely over the uneven path. <span data-transitions="I wish,She wishes" data-transition-duration="infinite" data-transition-direction="alternate"></span> again she'd taken the hiking pole <span data-transitions="I,she" data-transition-duration="infinite" data-transition-direction="alternate"></span> offered her.\u000a\u000a"So...the project you\u2019re working on could make people live forever then, right? You'd just keep downloading their personalities into new bodies?" <span data-transitions="I scramble,She scrambles" data-transition-duration="infinite" data-transition-direction="alternate"></span> up and over a boulder where the trail curves into the brush.\u000a\u000a"It\u2019s not that easy. What happens if the host body is too damaged to  be repaired with nanotech? And you couldn\u2019t use someone else's body which had ceased neural function...that would be unconscionable."\u000a\u000a"So you make some kind of robot then, put the brain in that." As <span data-transitions="I hop,she hops" data-transition-duration="infinite" data-transition-direction="alternate"></span> down, branches crunch beneath <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span>, and <span data-transitions="I stumble,she stumbles" data-transition-duration="infinite" data-transition-direction="alternate"></span> a moment before brushing dirt from <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> pants and rejoining her at the bend where she\u2019s waiting for <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span>.\u000a\u000a"That\u2019s the idea. But we\u2019re years out from that technology still."\u000a\u000a"Aw." <span data-transitions="I,She"></span> pout. "You don\u2019t want a robot girlfriend? I think that\u2019d be pretty neat. I could climb anything. I\u2019d be indestructible."\u000a\u000aZoe\u2019s smile is a little sad, the one she gives <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> when she wishes <span data-transitions="I'd,she'd" data-transition-duration="infinite" data-transition-direction="alternate"></span> stop playing around. "I just want you."\u000a\u000a<div class="buttonContainer"><button>[[REBUILD|rebuildzoehike]]</button>\u000a<button>[[REMOVE|removezoehike]]</button></div>\u000a<<display "restartSupervisor">>
-p803
+p807
 sg23
 V58R423
-p804
+p808
 sg25
 g26
 ((I2018
@@ -2651,32 +2664,32 @@ I47
 I6
 I49
 I0
-tp805
-(dp806
-tp807
-Rp808
+tp809
+(dp810
+tp811
+Rp812
 sg31
-(lp809
+(lp813
 sg33
-g808
-sbsa(dp810
+g812
+sbsa(dp814
 g14
 I00
 sg15
-(lp811
+(lp815
 I598
 aI422
 asg17
 (itiddlywiki
 Tiddler
-p812
-(dp813
+p816
+(dp817
 g21
 V<<header>><<set $memory6 to true>><<set $passagenumber += 1>><<set $happy += 1>><<set $amandaseen += 1>><<set $amandameeting to true>>The music\u2019s so loud <span data-transitions="I,she" data-transition-duration="infinite" data-transition-direction="alternate"></span> can feel it in <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> teeth. <span data-transitions="My,Her" data-transition-duration="infinite" data-transition-direction="alternate"></span> heart beats with the rhythm, far too fast, and <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> entire body is practically vibrating. The overhead lights strobe inexorably. <span data-transitions="I've,She's" data-transition-duration="infinite" data-transition-direction="alternate"></span> managed to lose Zack in the crowd, and that makes <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> breathe a little easier, even through the fog machine\u2019s haze. \u000a\u000aThe lead singer's long black dreads swing around her as she tosses her head to the rhythm. Her dark skin is almost blue-black under the stage's lights, luminous and lush. Her voice is raspy, raw, //gorgeous//. <span data-transitions="I,She" data-transition-duration="infinite" data-transition-direction="alternate"></span> can\u2019t look at anyone else in the room. Her breaths come sharp and soon <span data-transitions="I'm,she's" data-transition-duration="infinite" data-transition-direction="alternate"></span> breathing in time with them, with the heavy drumbeat that <span data-transitions="I,she" data-transition-duration="infinite" data-transition-direction="alternate"></span> can feel in <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> marrow. <span data-transitions="I want,She wants" data-transition-duration="infinite" data-transition-direction="alternate"></span> to get even closer; but all I can do is close <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> eyes and let her voice wash over <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> body.\u000a\u000a<span data-transitions="I don't,She doesn't" data-transition-duration="infinite" data-transition-direction="alternate"></span> know how long the show is. <span data-transitions="I only know,She only knows" data-transition-duration="infinite" data-transition-direction="alternate"></span> the music and the lights and her voice, pulsing in rhythm with <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> blood. It\u2019s only afterward, sitting on the curb, soaked in sweat and lighting a cigarette to calm <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> nerves, that <span data-transitions="I see,she sees" data-transition-duration="infinite" data-transition-direction="alternate"></span> her again.\u000a\u000a\u201cNice set.\u201d <span data-transitions="My,Her" data-transition-duration="infinite" data-transition-direction="alternate"></span> voice almost cracks. She gives <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> an amused, slow grin.\u000a\u000a\u201cThanks.\u201d She gestures toward <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> cigarette; <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> eyes track the movement of her long fingers, the blunt shape of her close-cut nails. <span data-transitions="I swallow,She swallows" data-transition-duration="infinite" data-transition-direction="alternate"></span>. \u201cCan I bum one from you? I\u2019m Amanda.\u201d\u000a\u000a<div class="buttonContainer"><button>[[REBUILD|rebuildamandameeting]]</button>\u000a<button>[[REMOVE|removeamandameeting]]</button></div>\u000a<<display "restartSupervisor">>
-p814
+p818
 sg23
 V67RG43
-p815
+p819
 sg25
 g26
 ((I2018
@@ -2688,12 +2701,12 @@ I23
 I3
 I53
 I0
-tp816
-(dp817
-tp818
-Rp819
+tp820
+(dp821
+tp822
+Rp823
 sg31
-(lp820
+(lp824
 sg33
 g26
 ((I2018
@@ -2705,28 +2718,28 @@ I47
 I6
 I49
 I0
-tp821
-(dp822
-tp823
-Rp824
-sbsa(dp825
+tp825
+(dp826
+tp827
+Rp828
+sbsa(dp829
 g14
 I00
 sg15
-(lp826
+(lp830
 I985
 aI1161
 asg17
 (itiddlywiki
 Tiddler
-p827
-(dp828
+p831
+(dp832
 g21
 V<<header>><<set $zoehike to false>><<set $memoriesdeleted += 1>><<if $passagenumber eq 1>>//I am unsure how many memories can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five. Three, for sure. Almost definitely less than ten.//\u000a<<REMOVE>>[[Cleaning...|$hubpassagename]]<<else>><<REMOVE>>[[Cleaning...|$hubpassagename]]<<endif>>
-p829
+p833
 sg23
 Vremovezoehike
-p830
+p834
 sg25
 g26
 ((I2018
@@ -2738,12 +2751,12 @@ I58
 I6
 I49
 I0
-tp831
-(dp832
-tp833
-Rp834
+tp835
+(dp836
+tp837
+Rp838
 sg31
-(lp835
+(lp839
 sg33
 g26
 ((I2018
@@ -2755,28 +2768,28 @@ I47
 I6
 I49
 I0
-tp836
-(dp837
-tp838
-Rp839
-sbsa(dp840
+tp840
+(dp841
+tp842
+Rp843
+sbsa(dp844
 g14
 I00
 sg15
-(lp841
+(lp845
 I706
 aI761
 asg17
 (itiddlywiki
 Tiddler
-p842
-(dp843
+p846
+(dp847
 g21
 V<<header>><<set $zoekept += 1>><<set $painfulkept += 1>><<if $passagenumber eq 1>>//I am unsure how many more can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five more. Three, for sure. Almost definitely less than ten.//\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<else>>\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<endif>>
-p844
+p848
 sg23
 Vrebuildzoeworry
-p845
+p849
 sg25
 g26
 ((I2018
@@ -2788,12 +2801,12 @@ I21
 I3
 I53
 I0
-tp846
-(dp847
-tp848
-Rp849
+tp850
+(dp851
+tp852
+Rp853
 sg31
-(lp850
+(lp854
 sg33
 g26
 ((I2018
@@ -2805,28 +2818,28 @@ I47
 I6
 I49
 I0
-tp851
-(dp852
-tp853
-Rp854
-sbsa(dp855
+tp855
+(dp856
+tp857
+Rp858
+sbsa(dp859
 g14
 I00
 sg15
-(lp856
+(lp860
 I11
 aI839
 asg17
 (itiddlywiki
 Tiddler
-p857
-(dp858
+p861
+(dp862
 g21
 Vvar audio = document.createElement('audio');\u000aaudio.id = 'backgroundMusic';\u000aaudio.src = 'audio/WhatIsntSaved-faded.mp3';\u000aaudio.autoplay = 'autoplay';\u000aaudio.loop = 'loop';\u000adocument.body.appendChild(audio);
-p859
+p863
 sg23
 Vmusic
-p860
+p864
 sg25
 g26
 ((I2018
@@ -2838,14 +2851,14 @@ I54
 I6
 I49
 I0
-tp861
-(dp862
-tp863
-Rp864
+tp865
+(dp866
+tp867
+Rp868
 sg31
-(lp865
+(lp869
 Vscript
-p866
+p870
 asg33
 g26
 ((I2018
@@ -2857,28 +2870,28 @@ I47
 I6
 I49
 I0
-tp867
-(dp868
-tp869
-Rp870
-sbsa(dp871
+tp871
+(dp872
+tp873
+Rp874
+sbsa(dp875
 g14
 I00
 sg15
-(lp872
+(lp876
 I2435
 aI278
 asg17
 (itiddlywiki
 Tiddler
-p873
-(dp874
+p877
+(dp878
 g21
 V<<header>>\u000a<<set $climbing2 to true>>\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 flails \u2588\u2588\u2588\u2588 \u2588\u2588. \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588, no hold, \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588. \u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588.\u000a\u000a\u2588\u2588'\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588. \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588  \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 body \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588 \u2588\u2588'\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 falling--\u000a\u000a<div class="buttonContainer"><button>[[Repair|$hubpassagename]]</button></div>
-p875
+p879
 sg23
 VRecover memory 9U431MZ1
-p876
+p880
 sg25
 g26
 ((I2018
@@ -2890,32 +2903,32 @@ I47
 I6
 I49
 I0
-tp877
-(dp878
-tp879
-Rp880
+tp881
+(dp882
+tp883
+Rp884
 sg31
-(lp881
+(lp885
 sg33
-g880
-sbsa(dp882
+g884
+sbsa(dp886
 g14
 I00
 sg15
-(lp883
+(lp887
 I1413
 aI764
 asg17
 (itiddlywiki
 Tiddler
-p884
-(dp885
+p888
+(dp889
 g21
 V<<header>><<set $zoekept += 1>><<set $painfulkept += 1>><<if $passagenumber eq 1>>//I am unsure how many more can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five more. Three, for sure. Almost definitely less than ten.//\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<else>>\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<endif>>
-p886
+p890
 sg23
 Vrebuildzoeargument
-p887
+p891
 sg25
 g26
 ((I2018
@@ -2927,32 +2940,32 @@ I47
 I6
 I49
 I0
-tp888
-(dp889
-tp890
-Rp891
+tp892
+(dp893
+tp894
+Rp895
 sg31
-(lp892
+(lp896
 sg33
-g891
-sbsa(dp893
+g895
+sbsa(dp897
 g14
 I00
 sg15
-(lp894
+(lp898
 I2143
 aI288
 asg17
 (itiddlywiki
 Tiddler
-p895
-(dp896
+p899
+(dp900
 g21
 V<<header>>\u000a<<set $amandameeting to true>>\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2019\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588 feel it in my teeth. \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588, \u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 practically vibrating. \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588'\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588. \u000a\u000a\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 rhythm. \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588-\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588's \u2588\u2588\u2588\u2588\u2588, luminous \u2588\u2588\u2588 \u2588\u2588\u2588\u2588. \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588, raw, \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588 \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588. \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 sharp \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588'\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588 marrow. \u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 even closer; \u2588\u2588\u2588 \u2588\u2588\u2588 \u2588 \u2588\u2588\u2588 \u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588.\u000a\u000a\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588. \u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588, pulsing \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 blood. \u2588\u2588\u2019\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588, soaked in sweat \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588 \u2588 \u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588.\u000a\u000a\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588.\u201d \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588.\u000a\u000a\u2588\u2588\u2588\u2588\u2588.\u201d \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588; \u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588-\u2588\u2588\u2588 \u2588\u2588\u2588\u2588. \u2588 swallow. "\u2588\u2588\u2588\u2588 I \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588? \u2588\u2019\u2588 \u2588\u2588\u2588\u2588\u2588\u2588.\u201d\u000a\u000a<div class="buttonContainer"><button>[[Repair|$hubpassagename]]</button></div>
-p897
+p901
 sg23
 VRecover memory 67RG43
-p898
+p902
 sg25
 g26
 ((I2018
@@ -2964,12 +2977,12 @@ I10
 I3
 I53
 I0
-tp899
-(dp900
-tp901
-Rp902
+tp903
+(dp904
+tp905
+Rp906
 sg31
-(lp903
+(lp907
 sg33
 g26
 ((I2018
@@ -2981,28 +2994,28 @@ I47
 I6
 I49
 I0
-tp904
-(dp905
-tp906
-Rp907
-sbsa(dp908
+tp908
+(dp909
+tp910
+Rp911
+sbsa(dp912
 g14
 I00
 sg15
-(lp909
+(lp913
 I143
 aI574
 asg17
 (itiddlywiki
 Tiddler
-p910
-(dp911
+p914
+(dp915
 g21
 Vwindow.createSupervisor = function() {\u000a  window.transitionSupervisor = new transitionSupervisorCtor({\u000a    config: {\u000a      initIntervalLength: 500,\u000a    },\u000a\u000a    predicate: function() {\u000a      return Math.random() < 0.05;\u000a    },\u000a\u000a    doBeforeTransition: function(transitionable) {\u000a      transitionable.setAttribute(\u000a        'data-text',\u000a        transitionable.textContent.split(' ')[0]);\u000a    },\u000a\u000a    completeTransition: function completeTransition(transitionable) {\u000a      if (!this.transitionableIsValid(transitionable)) {\u000a        console.log(this.strings.transitionableInvalid ||\u000a                    'Error missing! transitionableInvalid');\u000a        return;\u000a      }\u000a\u000a      var idStr = transitionable.getAttribute(\u000a        'data-transition-id');\u000a\u000a      var id = Math.floor(Number(idStr));\u000a      if (Number.isNaN(id) || id < 0) {\u000a        console.log(this.strings.transitionIdInvalid ||\u000a          'Error missing! transitionIdInvalid');\u000a        return;\u000a      }\u000a\u000a      /* Clear the easing interval for this transitionable. */\u000a      clearInterval(this.easingIntervalIds[id]);\u000a      delete this.easingIntervalIds[id];\u000a\u000a      var keyframe = this.getKeyframe(transitionable);\u000a      transitionable.textContent = this.transformToString(keyframe);\u000a      transitionable.setAttribute('data-text',\u000a        keyframe.split(' ')[0]);\u000a    },\u000a\u000a    easing: function easing(elem, inFrame, outFrame, stepsToEase, availableTime) {\u000a      if (!elem || !document.contains(elem)) {\u000a        console.log('The elem argument was invalid.');\u000a        return;\u000a      }\u000a\u000a      var inToChange = inFrame.split(' ')[0];\u000a      var inRemainder = inFrame.split(' ').slice(1).join(' ');\u000a      var outToChange = outFrame.split(' ')[0];\u000a      var outRemainder = outFrame.split(' ').slice(1).join(' ');\u000a\u000a      var id = Math.floor(Number(elem.getAttribute('data-transition-id')));\u000a      if (Number.isNaN(id) || id < 0) {\u000a        console.log('Invalid transition-id! Easing can\u005c't function.');\u000a        return;\u000a      }\u000a\u000a      var stepsNum = Number(stepsToEase);\u000a      if (stepsNum <= 0 || Number.isNaN(stepsNum)) {\u000a        console.log('The steps argument was not castable ' +\u000a            'to a positive integer.');\u000a        return;\u000a      }\u000a\u000a      var availableNum = Number(availableTime);\u000a      if (availableNum <= 0 || Number.isNaN(availableNum)) {\u000a        console.log('The availableTime argument was not castable ' +\u000a                    'to a positive integer.');\u000a        return;\u000a      } else if (stepsNum > availableNum) {\u000a        console.log('There\u005c's no way to execute this many steps in ' +\u000a                    'the remaining time, but we\u005c'll do as many as we ' +\u000a                    'can.');\u000a      }\u000a\u000a      var eachStepTakesAtLeast = Math.floor(availableNum / stepsNum);\u000a      var currentStep = 1;\u000a      var _this = this;\u000a\u000a      var alphabet = '0abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';\u000a\u000a      /* Start the easing immediately -- do not wait for the interval\u000a       * to fire. */\u000a      run();\u000a      \u000a      var intervalId = setInterval(run, eachStepTakesAtLeast);\u000a      this.easingIntervalIds[id] = intervalId;\u000a\u000a      function run() {\u000a        var eased = between(\u000a          inToChange,\u000a          outToChange,\u000a          currentStep / stepsToEase);\u000a        elem.textContent = eased + (outRemainder ? ' ' + outRemainder : '');\u000a        elem.setAttribute('data-text', eased);\u000a\u000a        currentStep++;\u000a\u000a        if (currentStep > stepsNum) {\u000a          clearInterval(intervalId);\u000a          delete _this.easingIntervalIds[id];\u000a        }\u000a      }\u000a\u000a      function reverse(str) {\u000a        if (str.length < 2) {\u000a          return str;\u000a        }\u000a\u000a        return str.split('').reverse().join('');\u000a      }\u000a\u000a      function enbase(num) {\u000a        var int = Math.floor(num);\u000a        var n = alphabet.length;\u000a        if (int < n) {\u000a          return alphabet[int];\u000a        }\u000a\u000a        return enbase(int / n) + alphabet[int % n];\u000a      }\u000a\u000a      function debase(str) {\u000a        var base = alphabet.length;\u000a        var result = 0;\u000a        for (var ii = 0; ii < str.length; ii++) {\u000a          var index = alphabet.indexOf(str[ii]);\u000a          result += index * Math.pow(base, ii);\u000a        }\u000a        \u000a        return result;\u000a      }\u000a\u000a      function between(a, b, factor) {\u000a        var inStr = reverse(a);\u000a        var outStr = reverse(b);\u000a        var diff;\u000a        var distance;\u000a        if (inStr.length > outStr.length) {\u000a          diff = inStr.length - outStr.length;\u000a          distance = Math.round(diff - diff * factor);\u000a          inStr = inStr.slice(inStr.length - outStr.length - distance);\u000a          outStr = pad(outStr, outStr.length + distance);\u000a        } else {\u000a          diff = outStr.length - inStr.length;\u000a          distance = Math.round(diff * factor);\u000a          inStr = pad(inStr, inStr.length + distance);\u000a          outStr = outStr.slice(outStr.length - inStr.length);\u000a        }\u000a\u000a        return enbase(debase(inStr) * (1 - factor) + debase(outStr) * factor);\u000a      }\u000a\u000a      function pad(str, charsToPad, char) {\u000a        var _char = char;\u000a        if (!_char) {\u000a          _char = alphabet[0];\u000a        }\u000a\u000a        if (_char.length !== 1 || alphabet.indexOf(_char) === -1) {\u000a          console.log('The char was either too long or was ' +\u000a              'not in the provided alphabet.');\u000a          return str;\u000a        }\u000a\u000a        var padding = _char.repeat(charsToPad - str.length); \u000a        return '' + padding + str;\u000a      }\u000a    },\u000a  });\u000a}
-p912
+p916
 sg23
 VcreateSupervisor
-p913
+p917
 sg25
 g26
 ((I2018
@@ -3014,14 +3027,14 @@ I53
 I6
 I49
 I0
-tp914
-(dp915
-tp916
-Rp917
+tp918
+(dp919
+tp920
+Rp921
 sg31
-(lp918
+(lp922
 Vscript
-p919
+p923
 asg33
 g26
 ((I2018
@@ -3033,28 +3046,28 @@ I47
 I6
 I49
 I0
-tp920
-(dp921
-tp922
-Rp923
-sbsa(dp924
+tp924
+(dp925
+tp926
+Rp927
+sbsa(dp928
 g14
 I00
 sg15
-(lp925
+(lp929
 I142
 aI842
 asg17
 (itiddlywiki
 Tiddler
-p926
-(dp927
+p930
+(dp931
 g21
 Vvar clickSound = new Audio();\u000aclickSound.src = 'audio/clickSound.mp3';\u000a\u000adocument.body.addEventListener('click', function (e) {\u000a    if (e.target.classList.contains('internalLink')) {\u000a        clickSound.play();\u000a    }\u000a});
-p928
+p932
 sg23
 Vsound
-p929
+p933
 sg25
 g26
 ((I2018
@@ -3066,34 +3079,34 @@ I47
 I6
 I49
 I0
-tp930
-(dp931
-tp932
-Rp933
+tp934
+(dp935
+tp936
+Rp937
 sg31
-(lp934
+(lp938
 Vscript
-p935
+p939
 asg33
-g933
-sbsa(dp936
+g937
+sbsa(dp940
 g14
 I00
 sg15
-(lp937
+(lp941
 I2430
 aI142
 asg17
 (itiddlywiki
 Tiddler
-p938
-(dp939
+p942
+(dp943
 g21
 V<<header>>\u000a\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588, tangled \u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588 slick and serpentine \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588. \u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588.\u000a\u000a\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588,  \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 laughing, \u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588.\u000a\u000a\u2588\u2588'\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588. \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588  \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 reeling \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588 \u2588\u2588'\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 back.\u000a\u000a<div class="buttonContainer"><button>[[Repair|$hubpassagename]]</button></div>
-p940
+p944
 sg23
 VRecover memory 4R18
-p941
+p945
 sg25
 g26
 ((I2018
@@ -3105,32 +3118,32 @@ I47
 I6
 I49
 I0
-tp942
-(dp943
-tp944
-Rp945
+tp946
+(dp947
+tp948
+Rp949
 sg31
-(lp946
+(lp950
 sg33
-g945
-sbsa(dp947
+g949
+sbsa(dp951
 g14
 I00
 sg15
-(lp948
+(lp952
 I598
 aI290
 asg17
 (itiddlywiki
 Tiddler
-p949
-(dp950
+p953
+(dp954
 g21
 V<<header>><<set $memory3 to true>><<set $passagenumber += 1>><<set $happy += 1>><span data-transitions="I'm,She's" data-transition-duration="infinite" data-transition-direction="alternate"></span> young, maybe three or four, playing in the shallows of a clear blue ocean that stretches out to the horizon. A man--<span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> father--is bent over, a strand of kelp tangled about his ankles, slick and serpentine beneath the waves. He splashes at the toddling figure, laughing as he does, and the girl\u2019s excited laughter carries up to where a woman sits watching, sun-bronzed and shielding her eyes from the glare. \u000a\u000aIn one ungraceful motion, like the seals sunning themselves on the  rocks beyond, the woman rolls into the water and splashes towards the pair. She reaches man and girl just as a particularly large wave has left <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> toddling in its wake, and steadies <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> with one small hand on <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> back. \u000a<div class="buttonContainer"><button>[[REBUILD|rebuildbeachchild]]</button>\u000a<button>[[REMOVE|removebeachchild]]</button></div>\u000a<<display "restartSupervisor">>
-p951
+p955
 sg23
 V4R18
-p952
+p956
 sg25
 g26
 ((I2018
@@ -3142,12 +3155,12 @@ I44
 I6
 I49
 I0
-tp953
-(dp954
-tp955
-Rp956
+tp957
+(dp958
+tp959
+Rp960
 sg31
-(lp957
+(lp961
 sg33
 g26
 ((I2018
@@ -3159,28 +3172,28 @@ I47
 I6
 I49
 I0
-tp958
-(dp959
-tp960
-Rp961
-sbsa(dp962
+tp962
+(dp963
+tp964
+Rp965
+sbsa(dp966
 g14
 I00
 sg15
-(lp963
+(lp967
 I710
 aI900
 asg17
 (itiddlywiki
 Tiddler
-p964
-(dp965
+p968
+(dp969
 g21
 V<<header>><<set $zoemovie to false>><<set $memoriesdeleted += 1>><<if $passagenumber eq 1>>//I am unsure how many can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five. Three, for sure. Almost definitely less than ten.//\u000a<<REMOVE>>[[Cleaning...|$hubpassagename]]<<else>><<REMOVE>>[[Cleaning...|$hubpassagename]]<<endif>>
-p966
+p970
 sg23
 Vremovezoeworry
-p967
+p971
 sg25
 g26
 ((I2018
@@ -3192,12 +3205,12 @@ I43
 I0
 I50
 I0
-tp968
-(dp969
-tp970
-Rp971
+tp972
+(dp973
+tp974
+Rp975
 sg31
-(lp972
+(lp976
 sg33
 g26
 ((I2018
@@ -3209,28 +3222,28 @@ I47
 I6
 I49
 I0
-tp973
-(dp974
-tp975
-Rp976
-sbsa(dp977
+tp977
+(dp978
+tp979
+Rp980
+sbsa(dp981
 g14
 I00
 sg15
-(lp978
+(lp982
 I458
 aI290
 asg17
 (itiddlywiki
 Tiddler
-p979
-(dp980
+p983
+(dp984
 g21
 V<<header>><<set $memory4 to true>><<set $passagenumber += 1>><<set $zoeseen += 1>><<set $zoesleep to true>>The rustle of sheets. <<if $removezoemeeting is true>>The woman beside <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span><<else>>Zoe<<endif>> turns over in her sleep, restless with the nightmares that plague her some nights. The hot prickle of sweat on <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> skin. <<if $removezoemeeting is true>>She<<else>>Zoe<<endif>> feels very far, even though she's on the other side of the bed. <span data-transitions="I reach,She reaches" data-transition-duration="infinite" data-transition-direction="alternate"></span> a hand towards <<if $removezoemeeting is true>>her<<else>>Zoe's<<endif>> shoulder, to shake her awake or maybe just touch her, but stop before <span data-transitions="I,she" data-transition-duration="infinite" data-transition-direction="alternate"></span> can trace the knobby vertebrae that stand out on her hunched back.\u000a\u000aTurn over. Listen to the AC. Watch the pattern of lights below the window. Try to sleep.\u000a\u000a<div class="buttonContainer"><button>[[REBUILD|rebuildsleepmemory]]</button>\u000a<button>[[REMOVE|removesleepmemory]]</button></div>\u000a<<display "restartSupervisor">>
-p981
+p985
 sg23
 V339NZ82
-p982
+p986
 sg25
 g26
 ((I2018
@@ -3242,12 +3255,12 @@ I1
 I6
 I49
 I0
-tp983
-(dp984
-tp985
-Rp986
+tp987
+(dp988
+tp989
+Rp990
 sg31
-(lp987
+(lp991
 sg33
 g26
 ((I2018
@@ -3259,28 +3272,28 @@ I47
 I6
 I49
 I0
-tp988
-(dp989
-tp990
-Rp991
-sbsa(dp992
+tp992
+(dp993
+tp994
+Rp995
+sbsa(dp996
 g14
 I00
 sg15
-(lp993
+(lp997
 I570
 aI759
 asg17
 (itiddlywiki
 Tiddler
-p994
-(dp995
+p998
+(dp999
 g21
 V<<header>><<set $zoekept += 1>><<set $happykept += 1>><<if $passagenumber eq 1>>//I am unsure how many more can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five more. Three, for sure. Almost definitely less than ten.//\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<else>>\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<endif>>
-p996
+p1000
 sg23
 Vrebuildzoetakeout
-p997
+p1001
 sg25
 g26
 ((I2018
@@ -3292,32 +3305,32 @@ I47
 I6
 I49
 I0
-tp998
-(dp999
-tp1000
-Rp1001
+tp1002
+(dp1003
+tp1004
+Rp1005
 sg31
-(lp1002
+(lp1006
 sg33
-g1001
-sbsa(dp1003
+g1005
+sbsa(dp1007
 g14
 I00
 sg15
-(lp1004
+(lp1008
 I851
 aI1031
 asg17
 (itiddlywiki
 Tiddler
-p1005
-(dp1006
+p1009
+(dp1010
 g21
 V<<header>><<set $amandakept += 1>><<set $painfulkept += 1>><<if $passagenumber eq 1>>//I am unsure how many more can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five more. Three, for sure. Almost definitely less than ten.//\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<else>>\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<endif>>
-p1007
+p1011
 sg23
 Vrebuildamandabreakup
-p1008
+p1012
 sg25
 g26
 ((I2018
@@ -3329,32 +3342,32 @@ I47
 I6
 I49
 I0
-tp1009
-(dp1010
-tp1011
-Rp1012
+tp1013
+(dp1014
+tp1015
+Rp1016
 sg31
-(lp1013
+(lp1017
 sg33
-g1012
-sbsa(dp1014
+g1016
+sbsa(dp1018
 g14
 I00
 sg15
-(lp1015
+(lp1019
 I889
 aI294
 asg17
 (itiddlywiki
 Tiddler
-p1016
-(dp1017
+p1020
+(dp1021
 g21
 V<<header>><<set $memory12 to true>><<set $passagenumber += 1>><<set $zoeseen += 1>><<set $painful += 1>><<set $zoemovie to true>><<if $removezoemeeting is true>>The woman sitting beside <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span><<else>>Zoe<<endif>> tries to crack her neck, not looking at the television or at <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span>. The remote is cool in <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> hand as I fiddle with the buttons, trying to navigate away from the sci-fi-thriller\u2019s upbeat credits back to the tv\u2019s home screen.\u000a\u000a"Not your thing, then, I\u2019m guessing." <span data-transitions="I'm,She's" data-transition-duration="infinite" data-transition-direction="alternate"></span> trying to lighten the mood, even though <span data-transitions="I'm,She's" data-transition-duration="infinite" data-transition-direction="alternate"></span> stung with that mixture of annoyance and shame that happens when someone you love doesn\u2019t //get// a thing you like.\u000a\u000aShe shakes her head and gives <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> a little shrug. \u201cNot really.\u201d\u000a\u000a\u201cI guess I thought you'd like a movie where \u2018brilliant rogue scientist saves the day with their secret research plan\u2019 is a major plot beat.\u201d\u000a\u000aShe runs her hands through her hair, pulls it back and lets it fall<<if $removezoemeeting is true>>. <span data-transitions="I,She" data-transition-duration="infinite" data-transition-direction="alternate"></span> must have upset her.<<else>>, in the way she does when she\u2019s nervous or uncomfortable in her own skin.<<endif>> \u000a\u000a"Developing that serum would have required so many lab tests. Did she use animals? Did she have student volunteers? Did she test it on herself, over and over?\u201d Zoe\u2019s talking quickly now, the words spilling out of her. <span data-transitions="I,She" data-transition-duration="infinite" data-transition-direction="alternate"></span> can\u2019t bring <span data-transitions="myself,herself" data-transition-duration="infinite" data-transition-direction="alternate"></span> to interrupt. \u201cAll I can see as a scientist is how many times it went wrong. Everything that would have been lost. And no one in the movie even //acknowledges// that."\u000a\u000a"It\u2019s just an old movie, Zoe.\u201d <span data-transitions="I,She" data-transition-duration="infinite" data-transition-direction="alternate"></span> reach out a hand and place it on her bony shoulder, feeling the hollow of her clavicle beneath <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> thumb. She leans her head towards <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> fingers. "They weren't really interested in dealing with ethical questions."\u000a\u000a"I know. But //I// have to." She sighs. "What we're doing is so completely new. We don't even know if it'll work! And if it does, we'll raise so many issue about death and dying..." Zoe shifts, drawing her long legs up beneath her, curling into <span data-transitions="me,her"></span>.\u000a\u000a"I shouldn't have even added you to the database," she adds suddenly, biting her lip. "Not without going through the Institutional Review Board. I guarantee you rogue scientists do not get treated as well in reality as they do in that film."\u000a\u000a\u201cI know.\u201d <span data-transitions="I shift,She shifts" data-transition-duration="infinite" data-transition-direction="alternate"></span> closer; <span data-transitions="I'm,she's"></span> practically murmuring into her hair. <span data-transitions="I,She" data-transition-duration="infinite" data-transition-direction="alternate"></span> can smell her shampoo, grapefruit and sage and something else. <span data-transitions="I don't,She doesn't" data-transition-duration="infinite" data-transition-direction="alternate"></span> know what else to say.\u000a\u000a<div class="buttonContainer"><button>[[REBUILD|rebuildzoeworry]]</button>\u000a<button>[[REMOVE|removezoeworry]]</button></div>\u000a<<display "restartSupervisor">>
-p1018
+p1022
 sg23
 V700RH3A
-p1019
+p1023
 sg25
 g26
 ((I2018
@@ -3366,12 +3379,12 @@ I57
 I3
 I53
 I0
-tp1020
-(dp1021
-tp1022
-Rp1023
+tp1024
+(dp1025
+tp1026
+Rp1027
 sg31
-(lp1024
+(lp1028
 sg33
 g26
 ((I2018
@@ -3383,28 +3396,28 @@ I47
 I6
 I49
 I0
-tp1025
-(dp1026
-tp1027
-Rp1028
-sbsa(dp1029
+tp1029
+(dp1030
+tp1031
+Rp1032
+sbsa(dp1033
 g14
 I00
 sg15
-(lp1030
+(lp1034
 I298
 aI290
 asg17
 (itiddlywiki
 Tiddler
-p1031
-(dp1032
+p1035
+(dp1036
 g21
 V<<header>><<set $passagenumber += 1>><<set $happy += 1>>\u000a<<set $zoemeeting to true>><<set $zoeseen += 1>><<set $memory2 to true>>A commotion near the door. Laura swoops down on the new guest, beer in hand. \u000a\u000a"Zoe! I can't believe you came. It's a miracle. Hey everyone!" Laura raises her voice. "Look who made it out of the lab to join us tonight." The new girl's pretty, blonde and freckled and a little gangly, smiling even as she shakes her head. Zoe.\u000a\u000a--\u000a\u000a"I don't know why I come out to these things," she confesses two hours later. She's sitting on the edge of the bathtub, balancing on the cool porcelain. It's the only part of Laura's apartment that isn't hot and loud, and Zoe leans her head against the tile. \u000a\u000a"Oh, yeah," <span data-transitions="I agree,she agrees" data-transition-duration="infinite" data-transition-direction="alternate"></span>, grinning sardonically. <span data-transitions="I reach,She reaches" data-transition-duration="infinite" data-transition-direction="alternate">I</span> for Zoe's hand. "Total waste of a night." At that line, she looks startled, and laughs.\u000a\u000a"Okay, yeah, maybe not a total waste." Zoe twines her long, thin fingers with <span data-transitions="mine,hers" data-transition-duration="infinite" data-transition-direction="alternate"></span>. "I don't usually like parties. It's really hard for me to find new people I want to talk to. But--you weren't expecting this either, were you?"\u000a\u000a"I wasn't," <span data-transitions="I admit,she admits" data-transition-duration="infinite" data-transition-direction="alternate"></span>. Her skin is soft against <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> calloused palm. <span data-transitions="I take,She takes" data-transition-duration="infinite" data-transition-direction="alternate"></span> a breath. "You want to maybe go somewhere quieter? Late-night drunk food?"\u000a\u000aZoe smiles. Her front teeth are slightly crooked. "Yes please. I just want to get out of here."\u000a\u000aLaura grins at <span data-transitions="us,them" data-transition-duration="infinite" data-transition-direction="alternate"></span> both as the apartment door swings open. "Take tomorrow off, Zoe," she calls after <span data-transitions="us,them" data-transitions-duration="infinite" data-transitions-direction="alternate"></span> down the hall. "Our experiment can wait." Zoe grips <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> hand a little tighter.\u000a\u000a<div class="buttonContainer"><button>[[REBUILD|rebuildzoemeeting]]</button>\u000a<button>[[REMOVE|removezoemeeting]]</button></div>\u000a<<display "restartSupervisor">>
-p1033
+p1037
 sg23
 V28A494X2
-p1034
+p1038
 sg25
 g26
 ((I2018
@@ -3416,32 +3429,32 @@ I47
 I6
 I49
 I0
-tp1035
-(dp1036
-tp1037
-Rp1038
+tp1039
+(dp1040
+tp1041
+Rp1042
 sg31
-(lp1039
+(lp1043
 sg33
-g1038
-sbsa(dp1040
+g1042
+sbsa(dp1044
 g14
 I00
 sg15
-(lp1041
+(lp1045
 I1555
 aI756
 asg17
 (itiddlywiki
 Tiddler
-p1042
-(dp1043
+p1046
+(dp1047
 g21
 V<<header>><<set $amandakept += 1>><<set $painfulkept += 1>><<if $passagenumber eq 1>>//I am unsure how many more can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five more. Three, for sure. Almost definitely less than ten.//\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<else>>\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<endif>>
-p1044
+p1048
 sg23
 Vrebuildamandaargument
-p1045
+p1049
 sg25
 g26
 ((I2018
@@ -3453,32 +3466,32 @@ I47
 I6
 I49
 I0
-tp1046
-(dp1047
-tp1048
-Rp1049
+tp1050
+(dp1051
+tp1052
+Rp1053
 sg31
-(lp1050
+(lp1054
 sg33
-g1049
-sbsa(dp1051
+g1053
+sbsa(dp1055
 g14
 I00
 sg15
-(lp1052
+(lp1056
 I567
 aI1036
 asg17
 (itiddlywiki
 Tiddler
-p1053
-(dp1054
+p1057
+(dp1058
 g21
 V<<header>><<set $painfulkept += 1>><<set $privatekept +=1>><<if $passagenumber eq 1>>//I am unsure how many more can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five more. Three, for sure. Almost definitely less than ten.//\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<else>>\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<endif>>
-p1055
+p1059
 sg23
 Vrebuildlastclimb
-p1056
+p1060
 sg25
 g26
 ((I2018
@@ -3490,12 +3503,12 @@ I53
 I3
 I53
 I0
-tp1057
-(dp1058
-tp1059
-Rp1060
+tp1061
+(dp1062
+tp1063
+Rp1064
 sg31
-(lp1061
+(lp1065
 sg33
 g26
 ((I2018
@@ -3507,28 +3520,28 @@ I47
 I6
 I49
 I0
-tp1062
-(dp1063
-tp1064
-Rp1065
-sbsa(dp1066
+tp1066
+(dp1067
+tp1068
+Rp1069
+sbsa(dp1070
 g14
 I00
 sg15
-(lp1067
+(lp1071
 I301
 aI554
 asg17
 (itiddlywiki
 Tiddler
-p1068
-(dp1069
+p1072
+(dp1073
 g21
 V<<header>><<set $passagenumber += 1>><<set $happy += 1>>\u000a<<set $oceanzoe to true>><<set $zoeseen += 1>><<set $memory1 to true>><span data-transitions="My,Her" data-transition-duration="infinite" data-transition-direction="alternate"></span> toes sink into the cool, wet sand at the water\u2019s edge, the slight impressions <span data-transitions="we,they" data-transition-duration="infinite" data-transition-direction="alternate"></span> leave behind <span data-transitions="us,them" data-transition-duration="infinite" data-transition-direction="alternate"></span> flooding every time the ocean laps at <span data-transitions="our,their" data-transition-duration="infinite" data-transition-direction="alternate"></span> feet. <<if $removezoemeeting is true>>The woman next to <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> is holding <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> hand; it\u2019s<<else>>Zoe\u2019s hand in <span data-transitions="mine,hers" data-transition-duration="infinite" data-transition-direction="alternate"></span> is<<endif>> a different sort of pressure, warm and soft. The glare on the waves makes <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> squint. <<if $removezoemeeting is true>>Her<<else>>Zoe's<<endif>> other hand is shading her eyes, and the breeze is whipping her hair into strands that snake around her shoulders and sometimes catch <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> face and <span data-transitions="I want,she wants" data-transition-duration="infinite" data-transition-direction="alternate"></span> to laugh or break into a run--\u000a\u000a\u201cMy parents used to take me here,\u201d <span data-transitions="I tell,she tells" data-transition-duration="infinite" data-transition-direction="alternate"></span> her instead, squeezing her hand as <<if $rebuildbeachchild is 1>><span data-transitions="I remember,she remembers" data-transition-duration="infinite" data-transition-direction="alternate"></span><<elseif $removebeachchild is 1>>I reach for the memory, but find only a neat hole<<else>>I strain to remember<<endif>>.\u000a\u000a\u201cI can see why.\u201d <<if $removezoemeeting is true>>Her<<else>>Zoe's<<endif>> voice is quiet and <span data-transitions="I have,she has" data-transition-duration="infinite" data-transition-direction="alternate"></span> to strain to hear over the crash of the waves. \u201cIt\u2019s so peaceful here.\u201d\u000a\u000a<div class="buttonContainer"><button>[[REBUILD|rebuildzoebeach]]</button>\u000a<button>[[REMOVE|removezoebeach]]</button></div>\u000a<<display "restartSupervisor">>
-p1070
+p1074
 sg23
 V478DS4
-p1071
+p1075
 sg25
 g26
 ((I2018
@@ -3540,32 +3553,32 @@ I47
 I6
 I49
 I0
-tp1072
-(dp1073
-tp1074
-Rp1075
+tp1076
+(dp1077
+tp1078
+Rp1079
 sg31
-(lp1076
+(lp1080
 sg33
-g1075
-sbsa(dp1077
+g1079
+sbsa(dp1081
 g14
 I00
 sg15
-(lp1078
+(lp1082
 I991
 aI897
 asg17
 (itiddlywiki
 Tiddler
-p1079
-(dp1080
+p1083
+(dp1084
 g21
 V<<header>><<set $oceanchild to false>><<set $memoriesdeleted += 1>><<if $passagenumber eq 1>>//I am unsure how many memories can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five. Three, for sure. Almost definitely less than ten.//\u000a<<REMOVE>>[[Cleaning...|$hubpassagename]]<<else>><<REMOVE>>[[Cleaning...|$hubpassagename]]<<endif>>
-p1081
+p1085
 sg23
 Vremovebeachchild
-p1082
+p1086
 sg25
 g26
 ((I2018
@@ -3577,12 +3590,12 @@ I54
 I0
 I50
 I0
-tp1083
-(dp1084
-tp1085
-Rp1086
+tp1087
+(dp1088
+tp1089
+Rp1090
 sg31
-(lp1087
+(lp1091
 sg33
 g26
 ((I2018
@@ -3594,28 +3607,28 @@ I47
 I6
 I49
 I0
-tp1088
-(dp1089
-tp1090
-Rp1091
-sbsa(dp1092
+tp1092
+(dp1093
+tp1094
+Rp1095
+sbsa(dp1096
 g14
 I00
 sg15
-(lp1093
+(lp1097
 I270
 aI1166
 asg17
 (itiddlywiki
 Tiddler
-p1094
-(dp1095
+p1098
+(dp1099
 g21
 V<<header>><<set $amandameeting to false>><<set $memoriesdeleted += 1>><<if $passagenumber eq 1>>//I am unsure how many memories can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five. Three, for sure. Almost definitely less than ten.//\u000a<<REMOVE>>[[Cleaning...|$hubpassagename]]<<else>><<REMOVE>>[[Cleaning...|$hubpassagename]]<<endif>>
-p1096
+p1100
 sg23
 Vremoveamandameeting
-p1097
+p1101
 sg25
 g26
 ((I2018
@@ -3627,12 +3640,12 @@ I35
 I0
 I50
 I0
-tp1098
-(dp1099
-tp1100
-Rp1101
+tp1102
+(dp1103
+tp1104
+Rp1105
 sg31
-(lp1102
+(lp1106
 sg33
 g26
 ((I2018
@@ -3644,28 +3657,28 @@ I47
 I6
 I49
 I0
-tp1103
-(dp1104
-tp1105
-Rp1106
-sbsa(dp1107
+tp1107
+(dp1108
+tp1109
+Rp1110
+sbsa(dp1111
 g14
 I00
 sg15
-(lp1108
+(lp1112
 I737
 aI421
 asg17
 (itiddlywiki
 Tiddler
-p1109
-(dp1110
+p1113
+(dp1114
 g21
 V<<header>><<set $memory9 to true>><<set $happy += 1>><<set $private += 1>><<set $passagenumber += 1>>\u000a<<set $climbing1 to true>>"You\u2019ll get the hang of it,\u201d he says from behind <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span>, and gives a little tug on the rope. The harness pulls even tighter around <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> thighs, biting into the muscle that wasn't there a year ago, before <span data-transitions="I,she"></span> started hiking. The rock is hot beneath <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> hands. <span data-transitions="I curl,She curls" data-transition-duration="infinite" data-transition-direction="alternate"></span> my fingers, search for a hold.\u000a\u000a<span data-transitions="I pull,She pulls" data-transition-duration="infinite" data-transition-direction="alternate"></span> <span data-transitions="myself,herself" data-transition-duration="infinite" data-transition-direction="alternate"></span> up, arms straining. <span data-transitions="My,Her" data-transition-duration="infinite" data-transition-direction="alternate"></span> foot, flailing through the air, meets a ledge, and <span data-transitions="I push,she pushes" data-transition-duration="infinite" data-transition-direction="alternate"></span> up. For a moment, everything is still. <span data-transitions="I press,She presses" data-transition-duration="infinite" data-transition-direction="alternate"></span> <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> body flush against the stone. <span data-transitions="I,She" data-transition-duration="infinite" data-transition-direction="alternate"></span> can hear <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> heartbeat. <span data-transitions="I reach,She reaches" data-transition-duration="infinite" data-transition-direction="alternate"></span> up.\u000a\u000a<div class="buttonContainer"><button>[[REBUILD|rebuildfirstclimb]]</button>\u000a<button>[[REMOVE|removefirstclimb]]</button></div>\u000a<<display "restartSupervisor">>
-p1111
+p1115
 sg23
 V239K5FP
-p1112
+p1116
 sg25
 g26
 ((I2018
@@ -3677,32 +3690,32 @@ I47
 I6
 I49
 I0
-tp1113
-(dp1114
-tp1115
-Rp1116
+tp1117
+(dp1118
+tp1119
+Rp1120
 sg31
-(lp1117
+(lp1121
 sg33
-g1116
-sbsa(dp1118
+g1120
+sbsa(dp1122
 g14
 I00
 sg15
-(lp1119
+(lp1123
 I425
 aI1163
 asg17
 (itiddlywiki
 Tiddler
-p1120
-(dp1121
+p1124
+(dp1125
 g21
 V<<header>><<set $climbing1 to false>><<set $memoriesdeleted += 1>><<if $passagenumber eq 1>>//I am unsure how many memories can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five. Three, for sure. Almost definitely less than ten.//\u000a<<REMOVE>>[[Cleaning...|$hubpassagename]]<<else>><<REMOVE>>[[Cleaning...|$hubpassagename]]<<endif>>
-p1122
+p1126
 sg23
 Vremovefirstclimb
-p1123
+p1127
 sg25
 g26
 ((I2018
@@ -3714,12 +3727,12 @@ I48
 I0
 I50
 I0
-tp1124
-(dp1125
-tp1126
-Rp1127
+tp1128
+(dp1129
+tp1130
+Rp1131
 sg31
-(lp1128
+(lp1132
 sg33
 g26
 ((I2018
@@ -3731,28 +3744,28 @@ I47
 I6
 I49
 I0
-tp1129
-(dp1130
-tp1131
-Rp1132
-sbsa(dp1133
+tp1133
+(dp1134
+tp1135
+Rp1136
+sbsa(dp1137
 g14
 I00
 sg15
-(lp1134
+(lp1138
 I846
 aI1163
 asg17
 (itiddlywiki
 Tiddler
-p1135
-(dp1136
+p1139
+(dp1140
 g21
 V<<header>><<set $amandabreakup to false>><<set $memoriesdeleted += 1>><<if $passagenumber eq 1>>//I am unsure how many memories can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five. Three, for sure. Almost definitely less than ten.//\u000a<<REMOVE>>[[Cleaning...|$hubpassagename]]<<else>><<REMOVE>>[[Cleaning...|$hubpassagename]]<<endif>>
-p1137
+p1141
 sg23
 Vremoveamandabreakup
-p1138
+p1142
 sg25
 g26
 ((I2018
@@ -3764,12 +3777,12 @@ I3
 I0
 I50
 I0
-tp1139
-(dp1140
-tp1141
-Rp1142
+tp1143
+(dp1144
+tp1145
+Rp1146
 sg31
-(lp1143
+(lp1147
 sg33
 g26
 ((I2018
@@ -3781,28 +3794,28 @@ I47
 I6
 I49
 I0
-tp1144
-(dp1145
-tp1146
-Rp1147
-sbsa(dp1148
+tp1148
+(dp1149
+tp1150
+Rp1151
+sbsa(dp1152
 g14
 I00
 sg15
-(lp1149
+(lp1153
 I700
 aI1036
 asg17
 (itiddlywiki
 Tiddler
-p1150
-(dp1151
+p1154
+(dp1155
 g21
 V<<header>><<set $zoekept += 1>><<set $happykept += 1>><<if $passagenumber eq 1>>//I am unsure how many more can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five more. Three, for sure. Almost definitely less than ten.//\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<else>>\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<endif>>
-p1152
+p1156
 sg23
 Vrebuildzoebeach
-p1153
+p1157
 sg25
 g26
 ((I2018
@@ -3814,32 +3827,32 @@ I47
 I6
 I49
 I0
-tp1154
-(dp1155
-tp1156
-Rp1157
+tp1158
+(dp1159
+tp1160
+Rp1161
 sg31
-(lp1158
+(lp1162
 sg33
-g1157
-sbsa(dp1159
+g1161
+sbsa(dp1163
 g14
 I00
 sg15
-(lp1160
+(lp1164
 I2290
 aI288
 asg17
 (itiddlywiki
 Tiddler
-p1161
-(dp1162
+p1165
+(dp1166
 g21
 V<<header>>\u000a<<set $zoesleep to true>>\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 rustle \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588 restless \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588. \u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588.\u000a\u000a\u2588\u2588...\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588'\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588  \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 very far, \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588.\u000a\u000a\u2588\u2588'\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588. \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588  \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588 \u2588\u2588'\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 .\u000a\u000a\u2588\u2588...\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588'\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588  \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 vertebrae. \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588.\u000a\u000a\u2588\u2588'\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588. \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588  \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 pattern \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588 \u2588\u2588'\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 sleep .\u000a\u000a<div class="buttonContainer"><button>[[Repair|$hubpassagename]]</button></div>
-p1163
+p1167
 sg23
 VRecover memory 339NZ82
-p1164
+p1168
 sg25
 g26
 ((I2018
@@ -3851,32 +3864,32 @@ I47
 I6
 I49
 I0
-tp1165
-(dp1166
-tp1167
-Rp1168
+tp1169
+(dp1170
+tp1171
+Rp1172
 sg31
-(lp1169
+(lp1173
 sg33
-g1168
-sbsa(dp1170
+g1172
+sbsa(dp1174
 g14
 I00
 sg15
-(lp1171
+(lp1175
 I888
 aI556
 asg17
 (itiddlywiki
 Tiddler
-p1172
-(dp1173
+p1176
+(dp1177
 g21
 V<<header>><<set $passagenumber += 1>><<set $memory14 to true>><<set $zoeseen += 1>><<set $private += 1>>\u000a<<set $heat to true>>August and the heavy dry heat is hanging on me. <<if $removezoemeeting is true>><span data-transitions="I'm,She's" data-transition-duration="infinite" data-transition-direction="alternate"></span> alone in this apartment and <span data-transitions="I,she" data-transition-duration="infinite" data-transition-direction="alternate"></span><<else>>Zoe\u2019s away at a conference and <span data-transitions="we,they" data-transition-duration="infinite" data-transition-direction="alternate"></span><<endif>> don\u2019t have air conditioning and <span data-transitions="I,she" data-transition-duration="infinite" data-transition-direction="alternate"></span> can\u2019t sleep in this heat because it stifles every breath <span data-transitions="I take,she takes" data-transition-duration="infinite" data-transition-direction="alternate"></span>. Sweat is pooling between <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> breasts, an uncomfortable prickle, and <span data-transitions="I'm,she's" data-transition-duration="infinite" data-transition-direction="alternate"></span> starting to stick to the mattress, even though <span data-transitions="I've,she's" data-transition-duration="infinite" data-transition-direction="alternate"></span> kicked off all the sheets. Finally <span data-transitions="I,she" data-transition-duration="infinite" data-transition-direction="alternate"></span> can\u2019t take it anymore and <span data-transitions="I crawl,she crawls" data-transition-duration="infinite" data-transition-direction="alternate"></span> onto the shower floor a little before midnight, and when the rivulets of ice-cold water hit <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> skin <span data-transitions="I hiss,she hisses" data-transition-duration="infinite" data-transition-direction="alternate"></span> hiss in relief and the sound echoes off the cheap tile. But the drops evaporate quickly. By the time <span data-transitions="I step,she steps" data-transition-duration="infinite" data-transition-direction="alternate"></span> out of the bathroom, <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> skin's parched again. There's barely even the memory of relief.\u000a\u000a<div class="buttonContainer"><button>[[REBUILD|rebuildheat]]</button>\u000a<button>[[REMOVE|removeheat]]</button></div>\u000a<<display "restartSupervisor">>
-p1174
+p1178
 sg23
 V891KL2
-p1175
+p1179
 sg25
 g26
 ((I2018
@@ -3888,32 +3901,32 @@ I47
 I6
 I49
 I0
-tp1176
-(dp1177
-tp1178
-Rp1179
+tp1180
+(dp1181
+tp1182
+Rp1183
 sg31
-(lp1180
+(lp1184
 sg33
-g1179
-sbsa(dp1181
+g1183
+sbsa(dp1185
 g14
 I00
 sg15
-(lp1182
+(lp1186
 I304
 aI154
 asg17
 (itiddlywiki
 Tiddler
-p1183
-(dp1184
+p1187
+(dp1188
 g21
 VThis interactive contains flashing elements, as well as themes of death and physical trauma.\u000a\u000a[[RETURN|Start]]\u000a
-p1185
+p1189
 sg23
 VAbout
-p1186
+p1190
 sg25
 g26
 ((I2018
@@ -3925,12 +3938,12 @@ I9
 I6
 I49
 I0
-tp1187
-(dp1188
-tp1189
-Rp1190
+tp1191
+(dp1192
+tp1193
+Rp1194
 sg31
-(lp1191
+(lp1195
 sg33
 g26
 ((I2018
@@ -3942,28 +3955,28 @@ I47
 I6
 I49
 I0
-tp1192
-(dp1193
-tp1194
-Rp1195
-sbsa(dp1196
+tp1196
+(dp1197
+tp1198
+Rp1199
+sbsa(dp1200
 g14
-I01
+I00
 sg15
-(lp1197
+(lp1201
 I1863
 aI289
 asg17
 (itiddlywiki
 Tiddler
-p1198
-(dp1199
+p1202
+(dp1203
 g21
 V<<header>>\u000a<<set $removezoemeeting to false>><<set $recoverzoemeeting to true>>\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588, \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588. \u000a\u000a"Zoe! \u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588." \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588.\u000a\u000a\u2588\u2588...\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588'\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588  \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588.\u000a\u000a\u2588\u2588'\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588. \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588  \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588 \u2588\u2588'\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 .\u000a\u000a---\u000a\u000a"\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588," \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588, cool porcelain, \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588. \u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 leans her head \u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588.\u000a\u000a"\u2588\u2588 \u2588\u2588\u2588...\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588 \u2588\u2588\u2588\u2588." \u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588. Her skin is soft \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. "\u2588\u2588\u2588'\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588?" \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588.\u000a\u000a"\u2588\u2588'\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588." \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588  \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588. \u2588\u2588\u2588 \u2588\u2588'\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588.\u000a\u000a\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588 \u2588\u2588\u2588 \u2588\u2588\u2588\u2588 \u2588\u2588\u2588\u2588\u2588\u2588.\u000a\u000a<div class="buttonContainer"><button>[[Repair|$hubpassagename]]</button></div>
-p1200
+p1204
 sg23
 VRecover memory 28A494X2
-p1201
+p1205
 sg25
 g26
 ((I2018
@@ -3975,12 +3988,12 @@ I0
 I3
 I53
 I0
-tp1202
-(dp1203
-tp1204
-Rp1205
+tp1206
+(dp1207
+tp1208
+Rp1209
 sg31
-(lp1206
+(lp1210
 sg33
 g26
 ((I2018
@@ -3992,28 +4005,28 @@ I47
 I6
 I49
 I0
-tp1207
-(dp1208
-tp1209
-Rp1210
-sbsa(dp1211
+tp1211
+(dp1212
+tp1213
+Rp1214
+sbsa(dp1215
 g14
 I00
 sg15
-(lp1212
+(lp1216
 I743
 aI556
 asg17
 (itiddlywiki
 Tiddler
-p1213
-(dp1214
+p1217
+(dp1218
 g21
 V<<header>><<set $passagenumber += 1>><<set $happy += 1>><<set $memory16 to true>><<set $zoeseen += 1>>\u000a<<set $zoewine to true>>The rush of red wine, earthy and bitter, with a lingering dryness on <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> tongue, and then <<if $removezoemeeting is true>>a woman's<<else>>Zoe's<<endif>> lips on <span data-transitions="mine,hers" data-transition-duration="infinite" data-transition-direction="alternate"></span>, and a fistful of blonde hair wrapped around <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> fingers--\u000a\u000a<div class="buttonContainer"><button>[[REBUILD|rebuildzoewine]]</button>\u000a<button>[[REMOVE|removezoewine]]</button></div>\u000a<<display "restartSupervisor">>
-p1215
+p1219
 sg23
 V31VC87
-p1216
+p1220
 sg25
 g26
 ((I2018
@@ -4025,32 +4038,32 @@ I47
 I6
 I49
 I0
-tp1217
-(dp1218
-tp1219
-Rp1220
+tp1221
+(dp1222
+tp1223
+Rp1224
 sg31
-(lp1221
+(lp1225
 sg33
-g1220
-sbsa(dp1222
+g1224
+sbsa(dp1226
 g14
 I00
 sg15
-(lp1223
+(lp1227
 I15
 aI707
 asg17
 (itiddlywiki
 Tiddler
-p1224
-(dp1225
+p1228
+(dp1229
 g21
 Vversion.extensions.timedgotoMacro={major:1,minor:2,revision:0};\u000amacros["goto"]=macros.timedgoto={timer:null,handler:function(a,b,c,d){function cssTimeUnit(s){if(typeof s=="string"){if(s.slice(-2).toLowerCase()=="ms"){return +(s.slice(0,-2))||0\u000a}else{if(s.slice(-1).toLowerCase()=="s"){return +(s.slice(0,-1))*1000||0\u000a}}}throwError(a,s+" isn't a CSS time unit");return 0}var t,d,m,s;\u000at=c[c.length-1];d=d.fullArgs();m=0;if(b!="goto"){d=d.slice(0,d.lastIndexOf(t));\u000am=cssTimeUnit(t)}d=eval(Wikifier.parse(d));if(d+""&&state&&state.init){if(macros["goto"].timer){clearTimeout(macros["goto"].timer)\u000a}s=state.history[0].passage.title;macros["goto"].timer=setTimeout(function(){if(state.history[0].passage.title==s){state.display(d,a)\u000a}},m)}}};
-p1226
+p1230
 sg23
 Vtimed goto
-p1227
+p1231
 sg25
 g26
 ((I2018
@@ -4062,34 +4075,34 @@ I47
 I6
 I49
 I0
-tp1228
-(dp1229
-tp1230
-Rp1231
+tp1232
+(dp1233
+tp1234
+Rp1235
 sg31
-(lp1232
+(lp1236
 Vscript
-p1233
+p1237
 asg33
-g1231
-sbsa(dp1234
+g1235
+sbsa(dp1238
 g14
 I00
 sg15
-(lp1235
+(lp1239
 I453
 aI558
 asg17
 (itiddlywiki
 Tiddler
-p1236
-(dp1237
+p1240
+(dp1241
 g21
 V<<header>><<set $passagenumber += 1>><<set $memory13 to true>><<set $amandaseen += 1>><<set $painful += 1>>\u000a<<set $amandabreakup to true>>There\u2019s a small knot in the wood grain of the tabletop, a small enough impression that the hipster coffee shop probably thought it was quirky. <span data-transitions="I worry,She worries"></span> at the groove with <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> fingertip. Conversations wash over <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> but <span data-transitions="I,she" data-transition-duration="infinite" data-transition-direction="alternate"></span> can\u2019t pick out anything. Cold dread is slowly unraveling from where it's been crouched, coiled, in <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> stomach.\u000a\u000a\u201cIt just isn\u2019t working,\u201d Amanda is saying from across the table. She feels much further than that; she has for a long time. \u201cIt\u2019s not like we haven\u2019t tried.\u201d\u000a\u000aA deep breath. <span data-transitions="I fumble,She fumbles" data-transition-duration="infinite" data-transition-direction="alternate"></span> around for a response that makes <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> sound gracious, thoughtful, as the caffeine sizzles up <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> nerves. <span data-transitions="My,Her" data-transition-duration="infinite" data-transition-direction="alternate"></span> hands curl into fists, reflexively, and then uncurl. \u201cYeah.\u201d\u000a\u000aAmanda cocks her head, waiting for <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> to go on. <span data-transitions="I,She" data-transition-duration="infinite" data-transition-direction="alternate"></span> can\u2019t speak. <span data-transitions="I,She" data-transition-duration="infinite" data-transition-direction="alternate"></span> can only process. The slight prickle of the worn velvet chair beneath <span data-transitions="me,her" data-transition-duration="infinite" data-transition-direction="alternate"></span>. The chip on <span data-transitions="my,her" data-transition-duration="infinite" data-transition-direction="alternate"></span> cup\u2019s handle. The tug of impatience at the corner of Amanda\u2019s mouth as she counts the moments until she can walk out of here.\u000a\u000a<div class="buttonContainer"><button>[[REBUILD|rebuildamandabreakup]]</button>\u000a<button>[[REMOVE|removeamandabreakup]]</button></div>\u000a<<display "restartSupervisor">>
-p1238
+p1242
 sg23
 V87HT21
-p1239
+p1243
 sg25
 g26
 ((I2018
@@ -4101,32 +4114,32 @@ I47
 I6
 I49
 I0
-tp1240
-(dp1241
-tp1242
-Rp1243
+tp1244
+(dp1245
+tp1246
+Rp1247
 sg31
-(lp1244
+(lp1248
 sg33
-g1243
-sbsa(dp1245
+g1247
+sbsa(dp1249
 g14
 I00
 sg15
-(lp1246
+(lp1250
 I1131
 aI768
 asg17
 (itiddlywiki
 Tiddler
-p1247
-(dp1248
+p1251
+(dp1252
 g21
 V<<header>><<if $passagenumber eq 1>>//I am unsure how many more can be saved. Memories don't convert to bits in predictable, uniform ways, and dampware structure makes it notoriously difficult to estimate free space. A brief scan of available research offers hypothesis that more detailed or densely-connected or emotionally intense incidents take more data. Or ought to. More study required.\u000a\u000aMy estimate suggests space for perhaps five more. Three, for sure. Almost definitely less than ten.//\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<else>>\u000a<<REBUILD>>[[Reintegrating...|$hubpassagename]]<<endif>>
-p1249
+p1253
 sg23
 Vrebuildsleepmemory
-p1250
+p1254
 sg25
 g26
 ((I2018
@@ -4138,18 +4151,18 @@ I47
 I6
 I49
 I0
-tp1251
-(dp1252
-tp1253
-Rp1254
+tp1255
+(dp1256
+tp1257
+Rp1258
 sg31
-(lp1255
+(lp1259
 sg33
-g1254
+g1258
 sbsasS'scale'
-p1256
+p1260
 I1
 sS'snapping'
-p1257
+p1261
 I00
 ss.
